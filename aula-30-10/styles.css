@@ -1,0 +1,21 @@
+body {
+    background-color: lavender;
+  }
+  
+  h1 {
+    color: blueviolet;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  table, th, td {
+    border: 2px solid blueviolet;
+  }
+  
+  th {
+    background-color: blueviolet;
+    height: 30px;
+  }
+
+  tr:hover {background-color: rgb(202, 170, 233);}
+ 
