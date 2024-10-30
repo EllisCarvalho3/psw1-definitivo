@@ -1,6 +1,32 @@
 body {
     background-color: lavender;
   }
+
+  p {
+    color: blueviolet;
+    border-style: ridge;
+    border-color: blueviolet;
+    border-radius: 20px;
+  }
+
+  p.center {
+    text-align: center;
+    color: rgb(171, 73, 228);
+    margin: 25px;
+  }
+  
+  p.large {
+    font-size: 300%;
+  }
+
+  h1, h3 {
+    background-color: rgba(101, 48, 155, 0.492);
+    text-align: center;
+  }
+  
+  div {
+    background-color: lightblue;
+  }
   
   h1 {
     color: blueviolet;
@@ -18,4 +44,8 @@ body {
   }
 
   tr:hover {background-color: rgb(202, 170, 233);}
+
+  a {
+    color: rgb(180, 123, 222);
+  }
  
