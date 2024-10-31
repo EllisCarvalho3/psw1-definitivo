@@ -62,13 +62,17 @@ section {
 }
 
 .seçao1-content h1, seçao2-content h1, seçao3-content h1, seçao4-content h1, seçao5-content h1 {
+    color:rgb(123, 3, 134);
     font-weight: 500;
     line-height: 1.3;
+    padding-top: 70px;
+    text-align: center;
 
     font-size: 2.7rem; /* test*/
 }
 
 .seçao1-content h3, seçao2-content h3, seçao3-content h3, seçao4-content h3, seçao5-content h3 {
+    color:rgb(165, 37, 191);
     font-weight: 500;
     font-size: 1.6rem;
 }
@@ -80,8 +84,65 @@ section {
 }
 
 h2 {
+    color:rgb(123, 3, 134);
     font-size: 2.2rem;
     margin-bottom: 1rem;
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==== button ====  */
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.8rem;
+    background-color: #5d047da2;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: 0.5s ease;
+    margin-top: 1.2rem;
+}
+
+.btn:hover {
+    box-shadow: 0 0 0.3rem rgb(213, 144, 234)violet;
+    background-color: inherit;
+    color: rgb(123, 3, 134);
+    cursor: pointer;
+}
+/*==== button ====  */
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: rgba(137, 43, 226, 0.589);
+    text:  #d5acf4;
+}
+
+footer-img {
+    width: 2.5rem;
+   
+    
+   
+}
